@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Technologies Lab Manual</title>
+  <style>
+    :root {
+      --teal: #009688;
+      --gold: #ffb300;
+      --dark-bg: #0a0f16;
+      --text-light: #f5f5f5;
+      --card-bg: #122030;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, var(--dark-bg), #1a2b40, #122030);
+      color: var(--text-light);
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+    }
+
+    header {
+      background: linear-gradient(90deg, var(--teal), var(--gold));
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+      border-bottom: 3px solid var(--gold);
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      margin: 0;
+    }
+
+    .student-info {
+      margin-top: 10px;
+      color: #fffde7;
+      font-weight: 600;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 50px 40px;
+    }
+
+    .lab {
+      background: linear-gradient(160deg, #1f3b4d, #0f2027);
+      border-radius: 16px;
+      padding: 25px;
+      width: 300px;
+      border-top: 4px solid var(--gold);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .lab:hover {
+      transform: translateY(-8px) scale(1.03);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+    }
+
+    .lab h3 {
+      color: var(--teal);
+      margin-bottom: 10px;
+    }
+
+    .lab p {
+      color: #d1d1d1;
+      font-size: 0.95rem;
+    }
+
+    a.lab-link {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 10px 16px;
+      background: linear-gradient(90deg, var(--teal), var(--gold));
+      color: #0a0f16;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    a.lab-link:hover {
+      filter: brightness(1.2);
+      transform: scale(1.05);
+    }
+
+    footer {
+      background: linear-gradient(90deg, var(--teal), var(--gold));
+      color: #0a0f16;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Web Technologies Lab Manual</h1>
+    <p>Department of Computer Engineering | COMSATS Abbottabad</p>
+    <div class="student-info">Name: <strong>Daniyal Ajmal</strong> | Reg No: <strong>FA22-BCE-098</strong></div>
+  </header>
+
+  <div class="container">
+    <div class="lab">
+      <h3>Lab 1: Introduction to HTML</h3>
+      <p>Learn basic HTML structure including headings, paragraphs, links, and lists.</p>
+      <a class="lab-link" href="F:\WEB\Lab1.html" target="_blank">Open Lab</a>
+    </div>
+
+    <div class="lab">
+      <h3>Lab 2: Tables and Forms</h3>
+      <p>Organize content using tables and capture user input through HTML forms.</p>
+      <a class="lab-link" href="F:\WEB\Lab2.html" target="_blank">Open Lab</a>
+    </div>
+
+    <div class="lab">
+      <h3>Lab 3: CSS Styling</h3>
+      <p>Discover inline, internal, and external styling methods using CSS.</p>
+      <a class="lab-link" href="F:\WEB\Lab3.html" target="_blank">Open Lab</a>
+    </div>
+
+    <div class="lab">
+      <h3>Lab 4: CSS Layouts</h3>
+      <p>Control page layouts precisely with margins, paddings, and positioning.</p>
+      <a class="lab-link" href="F:\WEB\Lab4.html" target="_blank">Open Lab</a>
+    </div>
+
+    <div class="lab">
+      <h3>Lab 5: Flexbox & Grid</h3>
+      <p>Design responsive layouts efficiently with Flexbox and CSS Grid.</p>
+      <a class="lab-link" href="F:\WEB\Lab5.html" target="_blank">Open Lab</a>
+    </div>
+
+    <div class="lab">
+      <h3>Lab 6: JavaScript Basics</h3>
+      <p>Add interactivity using JavaScript — variables, loops, and functions.</p>
+      <a class="lab-link" href="labs/lab6.html" target="_blank">Open Lab</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>Created by Daniyal Ajmal | Reg No: FA22-BCE-098 | © 2025 Web Technologies Lab</p>
+  </footer>
+</body>
+</html>
